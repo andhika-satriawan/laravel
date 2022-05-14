@@ -1,4 +1,4 @@
-@extends('layouts.main');
+@extends('layouts.main')
 
 @section('content')
     <article>
@@ -7,5 +7,5 @@
         <p>{{ $post["body"] }}</p>
     </article>
 
-    <a href="/blog">Back to Blog</a>
+    <a href="{{  url('blog') }}">Back to Blog</a>
 @endsection
